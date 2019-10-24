@@ -1319,6 +1319,7 @@ button:focus {
   color: #222222; }
 
 .button-group-area {
+  text-align: center;
   margin-top: 15px; }
   .button-group-area:nth-child(odd) {
     margin-top: 40px; }
@@ -1340,6 +1341,9 @@ button:focus {
     cursor: not-allowed; }
     .button-group-area .disable:before {
       display: none; }
+  .button-group-area a i {
+    margin-left: 10px;
+  }
 
 .primary {
   background: #52c5fd; }
@@ -1562,7 +1566,6 @@ h6 {
   font-weight: 500;
   cursor: pointer;
   position: relative;
-  left: 380px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
