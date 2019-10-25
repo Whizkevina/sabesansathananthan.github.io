@@ -381,11 +381,30 @@
 	/* End Blog Page Area css
 	============================================================================================ */
 }
-@media (max-width:400px){
+
+@media (max-width:450px){
 	/* The title of your name in blog.html 
 	============================================================================================ */
 	h1.name{
 		font-size:40px;
+		overflow:hidden;
+	}
+}
+
+@media (max-width:333px){
+	/* The title of your name in blog.html 
+	============================================================================================ */
+	h1.name-small{
+		font-size:32px;
+		overflow:hidden;
+	}
+}
+
+@media (max-width:267px){
+	/* The title of your name in blog.html 
+	============================================================================================ */
+	h1.name-small-small{
+		font-size: 24px;
 		overflow:hidden;
 	}
 }
