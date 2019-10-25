@@ -1981,6 +1981,12 @@ h6 {
   transition: all 0.3s ease 0s;
 }
 
+@media(max-width:775px) {
+  .genric-btn {
+    left:80px;
+  }
+}
+
 .genric-btn:focus {
   outline: none;
 }
@@ -3971,13 +3977,4 @@ h6 {
   background-color: #fff;
   top: 0;
   left: 0;
-}
-
-@media (max-width: 768px) {
-  .medium-widget-article__row {
-    flex-wrap: wrap;
-  }
-  .medium-widget-article__item {
-    flex: 0 0 100% !important;
-  }
 }
